@@ -3,64 +3,86 @@
 <head>
 	<title>About Hannah King</title>
 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 
 <body>
 
-<header>
-	<h1 class="name">Hannah King</h1>
-	
-	<nav>
-		<ul class="navlinks">
-		<li><a href="index.html">About</a></li>
-		<li>|</li>
-		<li><a href="portfolio.html">Portfolio</a></li>
-		<li>|</li>
-		<li><a href="contact.html">Contact</a></li>
-		</ul>
-	</nav>
-</header>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        
+      <a class="navbar-brand" href="#">Hannah King</a>
 
-<main>
+    </div>
+    
+    <ul class="nav navbar-nav">
+      <li><a href="index.html">About</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li class="active"><a href="contact.html">Connect</a></li> 
+    </ul>
+  </div>
+</nav>
 
-<section class="contact-page">
+<div class="panel panel-primary col-md-7">
+  <div class="panel-heading">
+    <h1 class="panel-title">Contact</h1>
+  </div>
 
-<h1 class="heading">Contact</h1>
+  <div class="panel-body">
 
-<hr class=section-hr>
+<form class="form-horizontal">
+	<div class="form-group">
 
-<form>
-
-  <input type="text" name="name" value="Name"><br>
+  <input class="form-control" type="text" name="name" value="Name"><br>
   Email<br>
-  <input type="text" name="email" value="email@gmail.com"><br>
+ 
+  <input class="form-control" type="text" name="email" value="email@gmail.com"><br>
   Message<br>
-  <input type="text" name="message" class=message><br>
-  <input type="submit" value="Submit" class="submit">
+ 
+  <input class="form-control" type="text" name="message" class=message><br>
+ 
 
+  <input class="form-control" type="submit" value="Submit">
+	
+	</div>
 </form>
 	
-</section>
+	</div>
 
-<aside>
-	<h2 class="connect">Connect with Me</h2>
-	<hr class="connect-hr">
-	
-	<a href="https://github.com/hmk7805" target="_blank"><img src="assets/images/github_icon.svg" alt="github" class="icons"></a>
+</div>
 
-	<a href="https://www.linkedin.com/in/hmking" target="_blank"><img src="assets/images/linkedin_icon.png" alt="linkedin" " class="icons"></a>
+<div class="col-md-1">
+</div>
 
-	<a href="http://stackoverflow.com/users/6827969/hannah-king?tab=profile" target="_blank"><img src="assets/images/stackoverflow_icon.svg" alt="stack overflow" class="icons"></a>
-	
-</aside>
+<div class="panel panel-primary col-md-4">
+  <div class="panel-heading">
+    <h2 class="panel-title">Connect With Me</h2>
+  </div>
+  <div class="panel-body text-center">
+  
+      <a href="https://github.com/hmk7805" target="_blank"><img src="assets/images/github_icon.svg" alt="github" class="img-responsive icons" id="github"></a>
 
-</main>
+      <a href="https://www.linkedin.com/in/hmking" target="_blank"><img src="assets/images/linkedin_icon.png" alt="linkedin" " class="icons" id="linkedin"></a>
 
-<footer>
-		<h4>&#169; Copyright 2016 Hannah King</h4>
-</footer>
+      <a href="http://stackoverflow.com/users/6827969/hannah-king?tab=profile" target="_blank"><img src="assets/images/stackoverflow_icon.svg" alt="stack overflow" class="icons" id="stackoverflow"></a>
+
+  </div>
+</div>
+
+<div class="row panel panel-default">
+  <div class="col-md-12 panel-footer text-center">&#169; Copyright 2016 Hannah King</div>
+</div>
+
+
 </body>
 </html>
