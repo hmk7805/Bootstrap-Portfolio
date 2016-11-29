@@ -1,3 +1,19 @@
+body{
+
+	border:0px;
+
+}
+
+.panel-primary{
+	padding:0px;
+}
+
+main{
+	border:0px;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
 .profile_pic{
 	clear: both;
 	width:200px;
@@ -5,6 +21,42 @@
 
 }
 
+.p1{
+	position:relative;
+	overflow:auto;
+}
+
+.pl{
+
+	position: 0px;
+
+}
+
+.pr{
+	
+	position: 150px;
+
+}
+
+h3 {
+
+	float:left;
+	margin-left:20px;
+	padding: 15px;
+	position: relative;
+	bottom:20px;
+	text-align: center;
+	color:#ffffff;
+	background-color:#4aaaa5;
+	font-weight: normal;
+
+}
+
+.prof-pic{
+	clear:both;
+	width:50%;
+	padding:20px;
+}
 
 .icons {
 	height: 50px;
@@ -19,18 +71,3 @@
 	width:75px;
 }
 
-footer {
-	text-align: center;
-	color:#ffffff;
-	font-weight:normal;
-	font-size:10px;
-	background-color:#777777;
-	border-top:5px solid #4aaaa5;
-	width:100%;
-	padding:20px;
-	position: fixed;
-	bottom:0px;
-	left: 0px;
-
-
-}
