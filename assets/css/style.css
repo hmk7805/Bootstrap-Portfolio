@@ -14,14 +14,23 @@ main{
 	margin-left: 10%;
 }
 
-.profile_pic{
-	clear: both;
-	width:200px;
-	height:200px;
+.profile_pic {
+	height: 200px;
+	width: 200px;
+	padding:20px 20px 0px 20px;
+	float:left;
 
 }
 
+p {
+	padding:20px;
+	font-size: 16px;
+	line-height: 28px;
+	
+}
+
 .p1{
+	clear:both;
 	position:relative;
 	overflow:auto;
 }
